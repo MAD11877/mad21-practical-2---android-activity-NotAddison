@@ -12,7 +12,7 @@ public class MainActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
-        User user1 = new User("Addison", "Y2 IT Student", 1, false);
+        UserTest user1 = new UserTest("Addison", "Y2 IT Student", 1, false);
 
         // Get button
         Button followButton = findViewById(R.id.followButton);
